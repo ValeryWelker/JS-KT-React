@@ -1,0 +1,84 @@
+.Discountform_block {
+    width:100%;
+    height: 486px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 80px 40px 80px 40px;
+
+}
+
+.Discountform {
+    display: flex;
+    width:100%;
+    height: 486px; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(261.47deg, #0B710B 32.63%, #339933 98.96%);
+    padding: 40px 0px 40px 0px;
+    border-radius: 16px; 
+}
+
+.discount_headtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:1296px;
+    height: 70px; 
+    font-size: 64px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color:white;
+}
+
+.inputform {
+    display: flex;
+    width:1296px;
+    height: 360px; 
+    flex-direction: row;
+    align-items:center;
+}
+
+.discountimage {
+    width:748px;
+    height: 360px; 
+    font-size: 64px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.inputlines {
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    width:516px;
+    height: 58px; 
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: white;
+    color:white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    z-index: 1000 !important;
+}
+
+.getdiscount_button {
+    width:516px;
+    height: 58px;
+    border-radius: 4px;
+    border-color: white;
+    margin-top:8px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+}

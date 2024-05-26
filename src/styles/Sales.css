@@ -1,0 +1,121 @@
+.sales_block {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding:40px;
+    
+}
+
+.saleelement > a {
+text-decoration: none;
+font-size: 20px;
+font-family: Montserrat;
+font-weight: 500;
+color:black;
+}
+
+.saleelement > a > img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width:150px;
+    min-height: 150px;  
+}
+
+
+.sales_headline {
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.sales_block_name {
+    background-color: #F1F3F4;
+    font-size: 64px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #282828;
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+}
+
+.sales_pictures {
+    display: flex;
+    flex-direction: row;
+    
+    gap:30px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color:black;
+    text-align: center;
+}
+
+#line2 {
+    display: flex;
+    height:1px;
+    align-self:right;
+    width:1030px;
+}
+
+a.button_allsales {
+    width:142px;
+    height:36px;
+    border: solid 1px;
+    padding: 8px 16px 8px 16px;
+    border-radius: small;
+    border-color: #DDDDDD;
+    background-color:#F1F3F4;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color:#8B8B8B;
+    align-self:center;
+}
+
+.saleelement {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow:column;
+    border:solid 1px;
+    border-color: rgb(221, 218, 218);
+    border-radius: 8px;
+}
+
+.saleelement > img {
+        border-radius: 8px;
+}
+
+.pricetext {
+    display: flex;
+    flex-flow:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+
+.pricetextfat {
+    display: flex;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    align-self:baseline;
+    
+}
+
+.pricetextnormal {
+    display: flex;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: grey;
+    text-decoration: line-through;
+    align-self:baseline;
+}

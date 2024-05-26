@@ -1,0 +1,14 @@
+.products_block {
+    display: flex;
+    width:100%;
+    max-width:1440px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 40px 40px 80px 40px;
+    font-size: 64px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #282828;
+}
